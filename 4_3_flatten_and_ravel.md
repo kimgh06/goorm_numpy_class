@@ -4,6 +4,8 @@
 
 flatten은 reshape의 역 연산이다.
 
+깊은 복사.
+
 ```python
 import numpy as np
 
@@ -27,6 +29,8 @@ O = N.flatten()
 ```
 
 ravel
+
+얕은 복사
 
 ```python
 import numpy as np
